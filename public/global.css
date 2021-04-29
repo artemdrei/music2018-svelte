@@ -1,0 +1,56 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: PT Sans, sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+a,
+button {
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out,
+    box-shadow 0.1s ease-in-out;
+}
+
+a:hover,
+button:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--success);
+}
+
+:root {
+  --base: #171717;
+  --base-weak: #f9f9f9;
+
+  --faint-strong: #738592;
+  --faint-weak-up: #d5dade;
+  --faint-weak: #e3e6e9;
+
+  --accent-strong: #1266f1;
+  --accent-strong-up: #0c56d0;
+  --accent-strong-down: #0d6efd;
+  --accent-weak-up: #77b4e4;
+  --accent-weak: #d1e6f6;
+
+  --danger: #f74545;
+  --danger-weak: #fdeded;
+
+  --warning: #e4bf34;
+  --warning-weak: #fef6db;
+
+  --success: #36a269;
+  --success-weak: #e1f3ea;
+
+  --font: #2c2c2c;
+  --font-accent: #171717;
+  --font-weak: #414141;
+
+  --border: #e9e9e9;
+  --radio-border: #738592;
+  --radio-border-hover: #d5dade;
+}
